@@ -44,6 +44,9 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.recovery.qcom
 
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-04-01
 
