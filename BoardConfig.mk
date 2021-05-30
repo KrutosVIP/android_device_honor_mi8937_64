@@ -46,8 +46,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.recovery.qcom
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
-PROTOBUF_SUPPORTED := true
-TARGET_RIL_VARIANT := caf
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-04-01
